@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Modern Login Authentication</title>
+
+  <link rel="stylesheet" href="login.css">
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <div class="background">
+    <div class="shape shape1"></div>
+    <div class="shape shape2"></div>
+  </div>
+
+  <div class="container">
+
+    <!-- LEFT SIDE -->
+    <div class="welcome-section">
+      <h1>Welcome Back</h1>
+      <p>
+        Create your account and securely login to access your dashboard.
+      </p>
+
+      <img 
+        src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" 
+        alt="Authentication Image"
+      >
+    </div>
+
+    <!-- RIGHT SIDE -->
+    <div class="form-section">
+
+      <!-- Tabs -->
+      <div class="tabs">
+        <button class="tab-btn active" onclick="showRegister()">Register</button>
+        <button class="tab-btn" onclick="showLogin()">Login</button>
+      </div>
+
+      <!-- Register Form -->
+      <div class="form-box" id="registerForm">
+
+        <h2>Create Account</h2>
+
+        <div class="input-box">
+          <input type="text" id="registerUsername" required>
+          <label>Username</label>
+        </div>
+
+        <div class="input-box">
+          <input type="password" id="registerPassword" required>
+          <label>Password</label>
+        </div>
+
+        <button class="main-btn" onclick="register()">
+          Register
+        </button>
+
+        <p id="registerMessage"></p>
+      </div>
+
+      <!-- Login Form -->
+      <div class="form-box hidden" id="loginForm">
+
+        <h2>Login Account</h2>
+
+        <div class="input-box">
+          <input type="text" id="loginUsername" required>
+          <label>Username</label>
+        </div>
+
+        <div class="input-box">
+          <input type="password" id="loginPassword" required>
+          <label>Password</label>
+        </div>
+
+        <button class="main-btn" onclick="login()">
+          Login
+        </button>
+
+        <p id="loginMessage"></p>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Secure Page -->
+  <div class="secure-page" id="securePage">
+
+    <div class="secure-card">
+      <img src="https://cdn-icons-png.flaticon.com/512/845/845646.png">
+
+      <h1>Login Successful 🎉</h1>
+
+      <p>
+        Welcome to your secured dashboard.
+      </p>
+
+      <button class="logout-btn" onclick="logout()">
+        Logout
+      </button>
+    </div>
+
+  </div>
+
+  <script src="login.js"></script>
+</body>
+</html>
