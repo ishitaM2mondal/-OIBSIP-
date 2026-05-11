@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>To-Do Web App</title>
+  <link rel="stylesheet" href="Todo.css" />
+</head>
+<body>
+
+  <div class="container">
+    <h1>To-Do List Web App</h1>
+
+    <!-- Add Task Form -->
+    <div class="task-form">
+      <input type="text" id="taskInput" placeholder="Enter task title" />
+      <textarea id="taskDesc" placeholder="Enter task description"></textarea>
+
+      <div class="date-time">
+        <span id="currentDate"></span>
+      </div>
+
+      <button id="addTaskBtn">Add Task</button>
+    </div>
+
+    <!-- Pending Tasks -->
+    <div class="task-section">
+      <h2>Pending Tasks</h2>
+      <div id="pendingTasks" class="task-list"></div>
+    </div>
+
+    <!-- Completed Tasks -->
+    <div class="task-section">
+      <h2>Completed Tasks</h2>
+      <div id="completedTasks" class="task-list"></div>
+    </div>
+  </div>
+
+  <script src="Todo.js"></script>
+</body>
+</html>
