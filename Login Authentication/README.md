@@ -184,7 +184,7 @@ for authentication purposes.
 
 # 👩‍💻 About Developer
 
-Developed with ❤️ using HTML, CSS & JavaScript.
+Developed by Ishita Mondal using HTML, CSS & JavaScript.
 
 ---
 
