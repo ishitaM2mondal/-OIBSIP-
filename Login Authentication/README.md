@@ -219,5 +219,5 @@ This project is open source and free to use.
 # ❤️ Thanks for Visiting
 
 ```bash
-Designed & Developed with ❤️
+Designed & Developed by Ishita Mondal
 ```
