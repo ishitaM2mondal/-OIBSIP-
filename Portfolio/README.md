@@ -80,7 +80,7 @@ cd portfolio
 Simply open:
 
 ```bash
-index.html
+portfolio.html
 ```
 
 in your browser.
