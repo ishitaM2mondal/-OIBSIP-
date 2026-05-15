@@ -191,7 +191,7 @@ https://linkedin.com/in/yourprofile
 ### Email
 
 ```bash
-yourmail@example.com
+ishitamondal0720@gmail.com
 ```
 
 ---
